@@ -153,3 +153,6 @@ Projeto desenvolvido para uso livre.
 ## 📄 Licença
 
 Uso livre para fins educacionais.
+
+## Agradecimentos
+DnDavid por ter disponibilizado as primeiras 600 imagens desse projeto, de forma organizada e pública.
