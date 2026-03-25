@@ -55,7 +55,7 @@ ou clique em **Download ZIP** no GitHub.
 As imagens não estão no repositório por questão de tamanho.
 
 👉 Baixe aqui:  
-**[COLE AQUI O LINK DO GOOGLE DRIVE]**
+**[https://drive.google.com/drive/folders/1p8BWBV4fakaTagAEzVAL7EwBolV4uqKO?usp=sharing]**
 
 ---
 
@@ -63,7 +63,9 @@ As imagens não estão no repositório por questão de tamanho.
 
 Após baixar, coloque a pasta `images` dentro do projeto:
 
+#### 3.1 Novas imagens
 
+Se tiver novas imagens, lembre-se de renomea-las e rodar o generete_tags.py para adicioná-las no filtro
 ---
 
 ### 4. Executar o sistema
@@ -92,6 +94,7 @@ As imagens são organizadas automaticamente com base em:
 
 - Nome do arquivo
 - Palavras-chave
+- Nomes da pasta
 - Categorias definidas no sistema
 
 ---
@@ -112,7 +115,7 @@ untagged
 - CSS3
 - JavaScript (Vanilla)
 - Python (geração de dados)
-- WebP (otimização de imagens)
+- JSON (tags)
 
 ---
 

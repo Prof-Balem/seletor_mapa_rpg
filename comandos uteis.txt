@@ -1,8 +1,14 @@
-Remove texto
-for f in *"(DnDavid)"*; do mv "$f" "${f//\(DnDavid\)/}"; done
+Comandos linux para facilitar a organização dos arquivos
 
-Troca espaço por _
+Remove texto
+for f in *"Texto_Indesejado"*; do mv "$f" "${f//"Texto_Indesejado"/}"; done
+
+Trocar espaço por _
 for f in *\ *; do mv "$f" "${f// /_}"; done
 
-Adicionar nome em todos os arquivos
+Adicionar nome comum em todos os arquivos
 for f in *; do mv "$f" "bloodborn_$f"; done
+
+Resultado esperado: 
+    -    Antes: dark_castle.jpg
+    -    Depois: bloodborn_dark_castle.jpg
