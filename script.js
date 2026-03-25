@@ -257,6 +257,7 @@ const CATEGORY_TAGS = new Set(
 );
 
 // carregar dados
+/*V1
 fetch('data.json')
   .then(res => res.json())
   .then(json => {
@@ -264,6 +265,11 @@ fetch('data.json')
     renderSidebar();
     renderGallery([]);
   });
+*/
+data = DATA;
+
+renderSidebar();
+renderGallery([]);
 
 // SIDEBAR
 function renderSidebar() {

@@ -123,4 +123,10 @@ for root, dirs, files in os.walk(IMAGE_FOLDER):
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
+# 🔥 gera versão JS automaticamente
+with open("data.js", "w", encoding="utf-8") as f:
+    f.write("const DATA = ")
+    json.dump(data, f, indent=2, ensure_ascii=False)
+    f.write(";")
+    
 print(f"✅ data.json gerado com {len(data)} imagens!")

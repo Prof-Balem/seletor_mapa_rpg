@@ -1,4 +1,4 @@
-[
+const DATA = [
   {
     "file": "bloodborn_Nightmare_Of_Mensis_Part_3__[50x42].jpg",
     "tags": [
@@ -4990,4 +4990,4 @@
       "structure"
     ]
   }
-]
+];

@@ -29,11 +29,13 @@ Este projeto foi desenvolvido para auxiliar mestres de RPG a:
 
 ## 📁 Estrutura do Projeto
 rpg-maps/
+    ├── data.js
     ├── generate_tags.py
     ├── index.html
     ├── script.js
     ├── style.css
     ├── data.json
+    ├── comandos uteis.txt (para desenvolvedor)
     └── images/
 
 
@@ -44,9 +46,10 @@ rpg-maps/
 ### 1. Baixar o projeto
 
 Você pode clonar ou baixar o ZIP:
-git clone 'link projeto github'
-
+git clone 'https://github.com/Prof-Balem/seletor_mapa_rpg.git'
 ou clique em **Download ZIP** no GitHub.
+
+Link download zip direto: https://github.com/Prof-Balem/seletor_mapa_rpg/archive/refs/heads/main.zip
 
 ---
 
@@ -69,14 +72,15 @@ Se tiver novas imagens, lembre-se de renomea-las e rodar o generete_tags.py para
 ---
 
 ### 4. Executar o sistema
-
+#### 4.1 Modo desenvolvedor
 No terminal:
 python3 -m http.server
 
 Abra no navegador:
 http://localhost:8000
 
-
+#### 4.2 Modo usuário
+Basta abrir o index.html
 ---
 
 ## 🎮 Como usar o sistema
