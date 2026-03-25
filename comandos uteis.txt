@@ -1,0 +1,8 @@
+Remove texto
+for f in *"(DnDavid)"*; do mv "$f" "${f//\(DnDavid\)/}"; done
+
+Troca espaço por _
+for f in *\ *; do mv "$f" "${f// /_}"; done
+
+Adicionar nome em todos os arquivos
+for f in *; do mv "$f" "bloodborn_$f"; done

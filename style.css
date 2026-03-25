@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #121212;
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+
+  padding: 10px;
+  background: #1e1e1e;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+#search {
+  padding: 8px;
+  width: 250px;
+}
+
+#container {
+  display: flex;
+  margin-top: 60px; /* ESSENCIAL */
+}
+
+/* SIDEBAR */
+#sidebar {
+  box-shadow: 2px 0 8px rgba(0,0,0,0.6);
+  position: fixed;
+  top: 60px;
+  left: 0;
+
+  width: 250px;
+  height: calc(100vh - 60px);
+
+  background: #1a1a1a;
+  padding: 10px;
+
+  overflow-y: auto;
+}
+/*#sidebar {
+  width: 250px;
+  background: #1a1a1a;
+  padding: 10px;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}*/
+#gallery {
+  margin-left: 250px;
+
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.category {
+  margin-bottom: 15px;
+}
+
+.category h3 {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.category button {
+  display: block;
+  width: 100%;
+  margin: 2px 0;
+  padding: 5px;
+  background: #2a2a2a;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+}
+
+.category button.active {
+  background: #4caf50;
+}
+
+/* GALERIA */
+#gallery {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  margin: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.caption {
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+
+/* MODAL */
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.95);
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 1000;
+}
+
+#modal.active {
+  display: flex;
+}
+
+#modal img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.hidden {
+  display: none;
+}
+
+#close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+
+  font-size: 40px;
+  cursor: pointer;
+
+  color: white;
+  z-index: 1001; /* 🔥 IMPORTANTE */
+}
