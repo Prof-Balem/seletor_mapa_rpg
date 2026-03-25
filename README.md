@@ -51,6 +51,9 @@ ou clique em **Download ZIP** no GitHub.
 
 Link download zip direto: https://github.com/Prof-Balem/seletor_mapa_rpg/archive/refs/heads/main.zip
 
+### 1.1 Usar online
+O seletor de mapas RPG está disponível online, sem necessidade de baixar nada: 
+https://seletormapasrpg.netlify.app/
 ---
 
 ### 2. Baixar as imagens
